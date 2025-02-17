@@ -1,0 +1,58 @@
+body {
+    font-size:medium;
+    font-family:Arial;
+    color:saddlebrown;
+    background-color:blanchedalmond;
+}
+
+#header {
+    font-family: Impact;
+    color:burlywood;
+}
+
+.name{
+    font-size:xx-large;
+}
+
+.status{
+    font-size:x-large;;
+}
+
+.title{
+    font-weight:bold;
+    font-size:x-large;
+}
+
+.subtitle{
+    font-weight:bold;
+    font-style: italic;
+    font-size:large;
+}
+
+.practical{
+    font-weight:normal;
+    font-size:x-small;
+    font-style:italic;
+}
+
+.info{
+    font-weight:bold;
+    font-size:smaller;
+}
+
+.content{
+    font-weight:normal;
+    font-size:smaller;
+}
+
+.education{
+    color:saddlebrown;
+}
+
+.experience{
+    color:sienna;
+}
+
+.skills{
+    color:peru;
+}

@@ -3,11 +3,24 @@ body {
     font-family:Arial;
     color:saddlebrown;
     background-color:blanchedalmond;
+    display:grid;
+    grid-template-columns:
+        1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header"
+    "main   main   .      sidebar"
+    "footer footer footer sidebar";
 }
 
 #header {
+    grid-area:header;
     font-family: Impact;
     color:burlywood;
+    padding-left: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 .name{
@@ -45,14 +58,38 @@ body {
     font-size:smaller;
 }
 
-.education{
+#education{
+    grid-area:main;
     color:saddlebrown;
+    padding-left: 10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 
-.experience{
+#experience{
+    grid-area:footer;
     color:sienna;
+    padding-left:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 
-.skills{
+#skills{
+    grid-area:sidebar;
     color:peru;
+    padding-left:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+img{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 5%;
 }

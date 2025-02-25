@@ -14,10 +14,12 @@ const randomColor = () =>
 /*let*/ active = true;
 
 function one_step() {
-    if (active)
-        console.log("beep");
+    if (active){
+        let c = randomColor();
+        console.log({c});
         let to_toggle = document.getElementById("header")
-        to_toggle.style.color = randomColor();
+        to_toggle.style.color = c;
+    }
 }
 
 // start the cyclic job: call one_step() every 1s

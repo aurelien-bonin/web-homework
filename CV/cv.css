@@ -23,6 +23,7 @@ body {
     margin-bottom:15px;
 }
 
+
 .name{
     font-size:xx-large;
 }
@@ -66,7 +67,9 @@ body {
     padding-bottom:2px;
     margin-top:5px;
     margin-bottom:5px;
+    transition: all 0.2s ease-in 0.1s;
 }
+
 
 #experience{
     grid-area:footer;
